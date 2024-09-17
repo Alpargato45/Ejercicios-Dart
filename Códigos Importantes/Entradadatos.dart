@@ -6,7 +6,6 @@ import 'dart:io';
 
 int pedirEntero(String texto) {
   int? dato;
-
   do {
     print("$texto");
     dato = int.tryParse(stdin.readLineSync()!);
@@ -16,7 +15,6 @@ int pedirEntero(String texto) {
 
 double pedirDouble(String texto) {
   double? dato;
-
   do {
     print("$texto");
     dato = double.tryParse(stdin.readLineSync()!);
@@ -26,7 +24,6 @@ double pedirDouble(String texto) {
 
 String pedirString(String texto) {
   String? dato;
-
   do {
     print("$texto");
     dato = stdin.readLineSync();
