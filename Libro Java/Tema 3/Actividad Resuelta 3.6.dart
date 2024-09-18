@@ -1,6 +1,5 @@
 //Escribir una aplicación para aprender a contar, que pedirá un número n y mostrará todos los números de 1 a n.
 
-import 'dart:io';
 import '../../Códigos Importantes/Entradadatos.dart';
 
 void main(List<String> args) {
